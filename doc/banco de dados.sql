@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 24-Jun-2023 às 00:26
+-- Tempo de geração: 24-Jun-2023 às 03:17
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -34,6 +34,7 @@ CREATE TABLE `tb_livros` (
   `id` int(11) NOT NULL,
   `isbn` varchar(25) DEFAULT NULL,
   `titulo` varchar(150) DEFAULT NULL,
+  `foto` varchar(1000) NOT NULL,
   `ano` int(11) DEFAULT NULL,
   `valor` float DEFAULT NULL,
   `editora` varchar(150) DEFAULT NULL,
